@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cadastro de alunos</title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+
+<body>
+	<div class="container">
+		<h1>Formulário de cadastro de alunos</h1>
+		<form class="row">
+			<div class="col-2">
+				<label>Nome:</label>
+				<input type="text" name="nome" class="form-control" />
+			</div>
+			<div class="col-2">
+				<label>Data de nascimento:</label>
+				<input type="date" name="data de nascimento" class="form-control" />
+			</div>
+			<div class="col-2">
+				<label>Ano que cursa:</label>
+				<input type="year" name="Ano" class="form-control" />
+			</div>
+			<div class="col-2">
+				<label>Matéria preferida:</label>
+				<input type="text" name="Matéria" class="form-control" />
+			</div>
+			<div class="col-2">
+				<button type="submit" class="btn btn-success" style="margin-top: 30px;">Salvar</button>
+			</div>
+		</form>
+		<br />
+		<table class="table table-striped">
+			<colgroup>
+				<col width="300">
+				<col width="300">
+				<col width="50">
+				<col width="50">
+			</colgroup>
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Matéria preferida</th>
+					<th>Editar</th>
+					<th>Excluir</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Alberto</td>
+					<td>Matemática</td>
+					<td>
+						<button class="btn btn-warning">Editar</button>
+					</td>
+					<td>
+						<button class="btn btn-danger">Excluir</button>
+					</td>
+				</tr>
+				<tr>
+					<td>Paulo</td>
+					<td>Português</td>
+					<td>
+						<button class="btn btn-warning">Editar</button>
+					</td>
+					<td>
+						<button class="btn btn-danger">Excluir</button>
+					</td>
+					<tr>
+						<td>Letícia</td>
+						<td>História</td>
+						<td>
+							<button class="btn btn-warning">Editar</button>
+						</td>
+						<td>
+							<button class="btn btn-danger">Excluir</button>
+						</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</body>
+
+</html>
